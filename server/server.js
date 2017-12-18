@@ -116,7 +116,7 @@ app.get('/dashboard/logout',auth,(req,res)=>{
 
     req.user.deleteToken(req.token,(err,user)=>{
         if(err) return res.status(400).send(err);
-         res.redirect('/')
+         res.redirect('/login')
     })
 })
 

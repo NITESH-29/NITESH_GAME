@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node server/server.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines":{
-    "node":"6.11.0"
+  "engines": {
+    "node": "6.11.0"
   },
   "author": "",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "express-handlebars": "^3.0.0",
     "jsonwebtoken": "^8.1.0",
     "moment": "^2.19.1",
-    "mongoose": "^4.10.8",
+    "mongoose": "^4.13.7",
     "nodemon": "^1.13.0"
   }
 }
